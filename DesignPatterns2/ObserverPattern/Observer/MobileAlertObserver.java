@@ -5,15 +5,15 @@ import DesignPatterns2.ObserverPattern.Observable.StocksObservable;
 public class MobileAlertObserver implements NotificationAlertObserver{
    String userName;
    StocksObservable observable;
-   public MobileAlertObserver(String userName, StocksObservable observable){
-        this.userName = userName;
+   public MobileAlertObserver(StocksObservable observable, String userName) {
         this.observable = observable;
-   }
+        this.userName = userName;
+    }
    @Override
    public void update(){
-    sendMsgOnMobile(userName, "Product is in stock, hurry up!");
+    sendMsgOnMobile("Manohar", "Product is in stock, hurry up!");
    }
    public void sendMsgOnMobile(String userName, String ms){
-    System.out.println("Message sen to "+ userName);
+    System.out.println("Message sent to "+ userName);
    }
 }
