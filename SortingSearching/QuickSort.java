@@ -1,5 +1,3 @@
-package SortingSearching;
-
 import java.util.*;
 
 public class QuickSort {

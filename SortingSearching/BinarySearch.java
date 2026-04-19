@@ -1,5 +1,3 @@
-package SortingSearching;
-
 import java.util.Scanner;
 
 public class BinarySearch {
