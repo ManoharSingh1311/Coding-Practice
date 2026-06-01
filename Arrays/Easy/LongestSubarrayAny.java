@@ -12,7 +12,8 @@ public class LongestSubarrayAny {
     }
     //Time Complexity: O(n)
     //Space Complexity: O(n)    
-    private static int longestSubarray(int[] arr, int k) {
+    private static int longestSubarray(int[] arr, int k) 
+    {
         HashMap<Integer, Integer> map = new HashMap<>();
         // in this approach we are using a hashmap to store the sum 
         // and the index of the first occurrence of the sum such that sum - k is present in the map

@@ -26,7 +26,9 @@ public class IsArraySortedAndRotated
         }
     }
     private static boolean isSorted(int[] arr) {
+        
        int count =0;
+
        for(int i=1; i<arr.length; i++){
         if(arr[i-1]>arr[i]){
             count++;

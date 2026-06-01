@@ -15,8 +15,11 @@ public class LongestConsecutiveSequence {
         sc.close();        
     }
     private static int lenOfLongestConsecutiveSequence(int arr[]){
+
         if(arr.length == 0) return 0;
+
         int max = 1;
+        
         HashSet<Integer> set = new HashSet<>();
         for(int num : arr){
             set.add(num);
