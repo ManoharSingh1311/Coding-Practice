@@ -1,5 +1,3 @@
-package striversheet.slidingwindow;
-
 import java.util.*;
 
 public class FruitIntoBaskets {
